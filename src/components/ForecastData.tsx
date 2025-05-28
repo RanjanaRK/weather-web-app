@@ -20,7 +20,7 @@ const ForecastData = ({ wData, isExpanded, onSelect }: any) => {
       <div className="">
         <div
           onClick={() => onSelect(wData.date)}
-          className={`cursor-pointer rounded border p-3 shadow backdrop-blur-lg transition-colors duration-300 ${isExpanded ? "bg-foreground/10" : "bg-background"}`}
+          className={`cursor-pointer rounded border p-3 shadow backdrop-blur-lg transition-colors duration-300 ${isExpanded ? "bg-foreground/5" : "bg-background"}`}
         >
           <p className="">
             {wData.date}
